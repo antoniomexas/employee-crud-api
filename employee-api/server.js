@@ -6,11 +6,11 @@
  */
 
 //correcao do codigo
-const express = require("express");
-const app = express();
+//const express = require("express");
+//const app = express();
 
 //substituido pela correcao do codigo
-//const app = require('./src/app');
+const app = require('./src/app');
 
 const port = process.env.PORT || 3000;
 
