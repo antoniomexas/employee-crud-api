@@ -10,6 +10,8 @@
  
  const app = express();
  
+ //console.log('teste app');//teste ordem aplicação
+
  // ==> Rotas da API (Employee):
  const index = require('./routes/index');
  const employeeRoute = require('./routes/employee.routes');

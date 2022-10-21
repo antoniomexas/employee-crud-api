@@ -12,9 +12,13 @@
  
  // ==> Conexão com a Base de Dados:
  const pool = new Pool({
-   connectionString: process.env.DATABASE_CITUS_DATA_URL
+   connectionString: process.env.DATABASE_URL
  });
- 
+ //alterado para tentar funcionar
+ /*const pool = new Pool({
+  connectionString: process.env.DATABASE_CITUS_DATA_URL
+});*/
+
  pool.on('error', (err, client) => {
    console.log('Unexpected error on idle client', err)
    process.exit(-1);

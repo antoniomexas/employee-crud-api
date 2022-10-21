@@ -9,6 +9,8 @@
 
  const router = express.Router();
  
+ //console.log('teste index');//teste ordem aplicação
+
  router.get('/api', (req, res) => {
    res.status(200).send({
      success: 'true',
