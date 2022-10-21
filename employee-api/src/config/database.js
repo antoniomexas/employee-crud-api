@@ -2,7 +2,7 @@
  * arquivo: config/database.js
  * descrição: arquivo responsável pelas 'connectrionStrings' (Cosmos DB & PostgreSQL)
  * data: 31/07/2020
- * author: Glaucia Lemos <@glaucia_lemos86>
+ * author: Antonio Mexas
  */
 
  const { Pool } = require('pg');

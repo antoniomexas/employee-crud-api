@@ -3,7 +3,7 @@
  * arquivo: routes/employee-routes.js
  * descrição: arquivo responsável pelas rotas da API
  * data: 31/07/2020
- * author: Glaucia Lemos <@glaucia_lemos86>
+ * author: Antonio Mexas
  */
 
  const router = require('express-promise-router')();

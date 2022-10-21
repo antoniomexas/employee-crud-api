@@ -2,7 +2,7 @@
  * arquivo: controllers/employee-routes.js
  * descrição: arquivo responsável pela lógica do CRUD (API - Employee)
  * data: 31/07/2020
- * author: Glaucia Lemos <@glaucia_lemos86>
+ * author: Antonio Mexas
  * datas em postgresql: https://www.postgresqltutorial.com/postgresql-date/
  */
 
